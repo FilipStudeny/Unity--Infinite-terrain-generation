@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8671419167874592849
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8671419167874592855}
+  - component: {fileID: 8671419167874592848}
+  m_Layer: 0
+  m_Name: GAME_MANAGER
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8671419167874592855
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8671419167874592849}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8671419167874592848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8671419167874592849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9a9f7c45bfee4b4c99edb9b45828f8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewer: {fileID: 0}
+  worldGenerator: {fileID: 4882626451107856809, guid: 229f5cbf2d577f848b4bc5a740ea7bae, type: 3}
+  terrainBiome: {fileID: 11400000, guid: cb87bbc6c6696e44c961f746a9087a8d, type: 2}
+  lowRange: {fileID: 11400000, guid: f7803e3392188ef44838119d72d22a08, type: 2}
+  mediumRange: {fileID: 11400000, guid: 5d6803f0633cf3e4486dcb8c30856333, type: 2}
+  highRange: {fileID: 11400000, guid: a2c6ff3fe838bff4c8653fa92e45724c, type: 2}
+  ultraRange: {fileID: 11400000, guid: 3d384c23cbbaee345a2b64dc713381f7, type: 2}
+  ultraPlusPlusRange: {fileID: 11400000, guid: 36e988e595aa5404fb8aee81fed87fa4, type: 2}
+  mouseSensitivity_Slider: {fileID: 0}
+  mouseSensitivity_Text: {fileID: 0}
+  renderDistances_DropDown: {fileID: 0}
+  resolutions_Dropdown: {fileID: 0}
+  useRandomSeed_Toggle: {fileID: 0}
+  seed_Input: {fileID: 0}
+  terrainHeight_Slider: {fileID: 0}
+  terrainHeight_Text: {fileID: 0}
+  generateClouds_Toggle: {fileID: 0}
+  generateTerrainObjects_Toggle: {fileID: 0}
+  generateWater_Toggle: {fileID: 0}
+  objectDensity_Slider: {fileID: 0}
+  objectDensity_Text: {fileID: 0}
+  numberOfOctaves_Slider: {fileID: 0}
+  numberOfOctaves_Text: {fileID: 0}
+  noiseScale_Slider: {fileID: 0}
+  noiseScale_Text: {fileID: 0}
+  persistence_Slider: {fileID: 0}
+  persistence_Text: {fileID: 0}
+  lacunarity_Slider: {fileID: 0}
+  lacunarity_Text: {fileID: 0}
+  errorPanel: {fileID: 0}

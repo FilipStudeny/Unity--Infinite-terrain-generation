@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bebae2a125a2be64ba608b738040a611, type: 3}
+  m_Name: Ulta++-Range
+  m_EditorClassIdentifier: 
+  meshLODs:
+  - LODlevel: 0
+    distanceFromViewer: 400
+  - LODlevel: 1
+    distanceFromViewer: 500
+  - LODlevel: 4
+    distanceFromViewer: 800
+  - LODlevel: 6
+    distanceFromViewer: 1000
+  - LODlevel: 8
+    distanceFromViewer: 1500
+  - LODlevel: 10
+    distanceFromViewer: 3500
